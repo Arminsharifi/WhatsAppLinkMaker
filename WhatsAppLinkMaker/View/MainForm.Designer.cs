@@ -38,13 +38,13 @@ namespace WhatsAppLinkMaker
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.txtInputText = new System.Windows.Forms.TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.btnCreate = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.txtNumber = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.txtLink = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picExit)).BeginInit();
             this.panel2.SuspendLayout();
@@ -148,6 +148,19 @@ namespace WhatsAppLinkMaker
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Your Information";
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(140)))), ((int)(((byte)(127)))));
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(249)))), ((int)(((byte)(250)))));
+            this.button1.Location = new System.Drawing.Point(21, 183);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(373, 42);
+            this.button1.TabIndex = 3;
+            this.button1.Text = "Report Bugs";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
             // btnCreate
             // 
             this.btnCreate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(140)))), ((int)(((byte)(127)))));
@@ -167,9 +180,9 @@ namespace WhatsAppLinkMaker
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(127, 83);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(149, 17);
+            this.label3.Size = new System.Drawing.Size(144, 17);
             this.label3.TabIndex = 2;
-            this.label3.Text = "Exsample : 09123456789";
+            this.label3.Text = "Example : 09123456789";
             // 
             // txtNumber
             // 
@@ -206,19 +219,6 @@ namespace WhatsAppLinkMaker
             this.txtLink.ReadOnly = true;
             this.txtLink.Size = new System.Drawing.Size(816, 112);
             this.txtLink.TabIndex = 0;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(140)))), ((int)(((byte)(127)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(249)))), ((int)(((byte)(250)))));
-            this.button1.Location = new System.Drawing.Point(21, 183);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(373, 42);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "Report Bugs";
-            this.button1.UseVisualStyleBackColor = false;
             // 
             // MainForm
             // 
