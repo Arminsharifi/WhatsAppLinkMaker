@@ -62,6 +62,7 @@ namespace WhatsAppLinkMaker
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(859, 27);
             this.panel1.TabIndex = 0;
+            this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Panel_MouseDown);
             // 
             // picExit
             // 
@@ -85,6 +86,7 @@ namespace WhatsAppLinkMaker
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(859, 41);
             this.panel2.TabIndex = 1;
+            this.panel2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Panel_MouseDown);
             // 
             // label1
             // 
@@ -96,6 +98,7 @@ namespace WhatsAppLinkMaker
             this.label1.Size = new System.Drawing.Size(311, 21);
             this.label1.TabIndex = 0;
             this.label1.Text = "WhatsApp Link Creator By Armin Sharifi";
+            this.label1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Panel_MouseDown);
             // 
             // panel3
             // 
