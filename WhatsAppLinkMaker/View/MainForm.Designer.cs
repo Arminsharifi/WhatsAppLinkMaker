@@ -129,6 +129,7 @@ namespace WhatsAppLinkMaker
             this.txtInputText.Multiline = true;
             this.txtInputText.Name = "txtInputText";
             this.txtInputText.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.txtInputText.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.txtInputText.Size = new System.Drawing.Size(399, 223);
             this.txtInputText.TabIndex = 0;
             // 
@@ -151,7 +152,7 @@ namespace WhatsAppLinkMaker
             this.btnCreate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCreate.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCreate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(249)))), ((int)(((byte)(250)))));
-            this.btnCreate.Location = new System.Drawing.Point(21, 174);
+            this.btnCreate.Location = new System.Drawing.Point(21, 123);
             this.btnCreate.Name = "btnCreate";
             this.btnCreate.Size = new System.Drawing.Size(373, 42);
             this.btnCreate.TabIndex = 1;
@@ -200,6 +201,7 @@ namespace WhatsAppLinkMaker
             this.txtLink.Location = new System.Drawing.Point(8, 18);
             this.txtLink.Multiline = true;
             this.txtLink.Name = "txtLink";
+            this.txtLink.ReadOnly = true;
             this.txtLink.Size = new System.Drawing.Size(816, 112);
             this.txtLink.TabIndex = 0;
             // 
