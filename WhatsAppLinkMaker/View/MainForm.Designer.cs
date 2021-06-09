@@ -44,6 +44,7 @@ namespace WhatsAppLinkMaker
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.txtLink = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picExit)).BeginInit();
             this.panel2.SuspendLayout();
@@ -135,6 +136,7 @@ namespace WhatsAppLinkMaker
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.button1);
             this.groupBox2.Controls.Add(this.btnCreate);
             this.groupBox2.Controls.Add(this.label3);
             this.groupBox2.Controls.Add(this.txtNumber);
@@ -205,6 +207,19 @@ namespace WhatsAppLinkMaker
             this.txtLink.Size = new System.Drawing.Size(816, 112);
             this.txtLink.TabIndex = 0;
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(140)))), ((int)(((byte)(127)))));
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(249)))), ((int)(((byte)(250)))));
+            this.button1.Location = new System.Drawing.Point(21, 183);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(373, 42);
+            this.button1.TabIndex = 3;
+            this.button1.Text = "Report Bugs";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
             // MainForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -249,6 +264,7 @@ namespace WhatsAppLinkMaker
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtLink;
         private System.Windows.Forms.Button btnCreate;
+        private System.Windows.Forms.Button button1;
     }
 }
 
