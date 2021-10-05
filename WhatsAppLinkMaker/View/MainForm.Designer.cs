@@ -38,7 +38,7 @@ namespace WhatsAppLinkMaker
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.txtInputText = new System.Windows.Forms.TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnClear = new System.Windows.Forms.Button();
             this.btnCreate = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.txtNumber = new System.Windows.Forms.TextBox();
@@ -136,7 +136,7 @@ namespace WhatsAppLinkMaker
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.button1);
+            this.groupBox2.Controls.Add(this.btnClear);
             this.groupBox2.Controls.Add(this.btnCreate);
             this.groupBox2.Controls.Add(this.label3);
             this.groupBox2.Controls.Add(this.txtNumber);
@@ -148,18 +148,19 @@ namespace WhatsAppLinkMaker
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Your Information";
             // 
-            // button1
+            // btnClear
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(140)))), ((int)(((byte)(127)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(249)))), ((int)(((byte)(250)))));
-            this.button1.Location = new System.Drawing.Point(21, 183);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(373, 42);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "Report Bugs";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnClear.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(140)))), ((int)(((byte)(127)))));
+            this.btnClear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnClear.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClear.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(249)))), ((int)(((byte)(250)))));
+            this.btnClear.Location = new System.Drawing.Point(21, 183);
+            this.btnClear.Name = "btnClear";
+            this.btnClear.Size = new System.Drawing.Size(373, 42);
+            this.btnClear.TabIndex = 3;
+            this.btnClear.Text = "Clear";
+            this.btnClear.UseVisualStyleBackColor = false;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // btnCreate
             // 
@@ -233,6 +234,7 @@ namespace WhatsAppLinkMaker
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Whats App Link Maker";
+            this.Shown += new System.EventHandler(this.MainForm_Shown);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.picExit)).EndInit();
             this.panel2.ResumeLayout(false);
@@ -264,7 +266,7 @@ namespace WhatsAppLinkMaker
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtLink;
         private System.Windows.Forms.Button btnCreate;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnClear;
     }
 }
 

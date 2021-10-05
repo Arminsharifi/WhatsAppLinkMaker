@@ -49,5 +49,17 @@ namespace WhatsAppLinkMaker
         {
             txtLink.Text = clsCL.fncGetLink(txtNumber.Text, txtInputText.Text);
         }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            txtInputText.Text = "";
+            txtLink.Text = "";
+            txtNumber.Text = "";
+        }
+
+        private void MainForm_Shown(object sender, EventArgs e)
+        {
+            txtNumber.Focus();
+        }
     }
 }
